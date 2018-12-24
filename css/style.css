@@ -16,15 +16,18 @@
 
 .nav-list {
     text-align: center;
+    font-size: 0px;
 }
 
 .list-item {
+    font-size: 16px;
     list-style: none;
     display: inline-block;
     margin: 0 120px 0 0;
 }
 
 .nav-link {
+    display: block;
     text-decoration: none;
     color: grey;
     font-family: 'Playfair Display', serif;
@@ -70,6 +73,27 @@ img {
     color: grey;
 }
 
+.load-more-list{
+    margin: 0 auto;
+    width: 165px;
+}
+.load-more-item{
+    list-style: none;
+    display: inline-block;
+}
+
+.load-more-button {
+    /* border: grey solid 1px; */
+    color: grey;
+    padding: 10px 10px;
+    width: 165px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    text-align: center;
+}
+
+/*
 .load-more{
     margin: 0 auto;
     width: 165px;
@@ -79,12 +103,6 @@ img {
     margin: 0 0 70px 0;
 }
 
-.load-more-item{
-    list-style: none;
-    display: inline-block;
-    border: grey solid 1px;
-    padding: 10px;
-}
 
 .load-more-link {
     text-decoration: none;
@@ -92,3 +110,4 @@ img {
     font-family: 'Playfair Display', serif;
     text-align: center;
 }
+*/
