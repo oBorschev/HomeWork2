@@ -61,31 +61,25 @@ img {
     height: 280px;
     display: block;
 }
-
 .aticle-item-f {
     margin: 0 50px 0 0;
 }
-
 .aticle-img {
     margin: 0 0 35px 0;
 }
-
 .aticle-p {
     margin: 0 0 35px 0;
     font-family: 'Playfair Display', serif;
     color: grey;
 }
-
 .aticle-header {
     margin: 0 0 40px 0;
     font-family: 'Playfair Display', serif;
     color: grey;
 }
-
 .aticle-text{
     font-family: 'Playfair Display', serif;
 }
-
 .load-more-button {
     display: block;
     margin: 0 auto;
