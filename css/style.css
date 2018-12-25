@@ -82,16 +82,14 @@ img {
     color: grey;
 }
 
-.load-more-list{
-    margin: 0 auto;
-    width: 165px;
-}
-.load-more-item{
-    list-style: none;
-    display: inline-block;
+.aticle-text{
+    font-family: 'Playfair Display', serif;
 }
 
 .load-more-button {
+    display: block;
+    margin: 0 auto;
+    width: 165px;
     color: grey;
     padding: 10px 10px;
     width: 165px;
