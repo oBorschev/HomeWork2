@@ -47,6 +47,7 @@ a:hover, a:focus {
 
 .aticle-list {
     font-size: 0;
+    margin-bottom: 60px;
 }
 
 .aticle-item {
@@ -57,12 +58,15 @@ a:hover, a:focus {
     margin: 0 0 130px 0;
 }
 img {
-    width: 420px;
-    height: 280px;
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .aticle-item-f {
     margin: 0 50px 0 0;
+}
+.aticle-item:nth-last-child(-n + 2){
+    margin-bottom: 0;
 }
 .aticle-img {
     margin: 0 0 35px 0;
@@ -70,25 +74,30 @@ img {
 .aticle-p {
     margin: 0 0 35px 0;
     font-family: 'Playfair Display', serif;
+    font-size: 14px;
     color: grey;
+    text-transform: uppercase;
 }
 .aticle-header {
     margin: 0 0 40px 0;
     font-family: 'Playfair Display', serif;
+    font-size: 30px;
     color: grey;
 }
 .aticle-text{
     font-family: 'Playfair Display', serif;
+    font-size: 14px;
 }
 .load-more-button {
+    border: 0;
     display: block;
     margin: 0 auto;
-    width: 165px;
-    color: grey;
-    padding: 10px 10px;
+    padding: 16px 26px;
     width: 165px;
     height: 60px;
+    color: grey;
     font-family: 'Playfair Display', serif;
+    font-size: 20px;
     background-color: white;
-    text-align: center;
+    cursor: pointer;
 }
