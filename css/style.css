@@ -38,7 +38,9 @@ html {
     color: grey;
     font-family: 'Playfair Display', serif;
 }
-
+.lifestyle{
+    padding-bottom: 70px;
+}
 a:hover, a:focus {
     color: #3CF;
 }
@@ -57,7 +59,8 @@ a:hover, a:focus {
     list-style: none;
     display:inline-block;
     width: 420px;
-    margin: 0 50px 130px 0;
+    margin: 0 60px 130px 0;
+    vertical-align: top;
 }
 
 .aticle-img {
@@ -82,6 +85,9 @@ a:hover, a:focus {
 .aticle-text{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
+}
+.load-more-button:hover{
+    color: #3CF;
 }
 .load-more-button {
     border: 1px solid black;
